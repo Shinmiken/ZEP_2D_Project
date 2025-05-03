@@ -309,6 +309,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3629446326763215408, guid: 3522104fbc6dfe6488b186ae9e6ad20d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6c6533f1c2286ea48a817526dd00b8c7, type: 3}
     - target: {fileID: 6486146157485176161, guid: 3522104fbc6dfe6488b186ae9e6ad20d, type: 3}
       propertyPath: m_Name
       value: Rock (3)
@@ -317,6 +321,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9064482325100203627, guid: 3522104fbc6dfe6488b186ae9e6ad20d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 28203cb6ee284df4ab17270f9ab404d3, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -357,7 +365,7 @@ MonoBehaviour:
   target: {fileID: 1490611270}
   GameOverUI: {fileID: 828600412}
   GameOverBackUI: {fileID: 2029651819}
-  gameObject: {fileID: 84018253}
+  _gameObject: {fileID: 84018253}
   scoreText: {fileID: 866748480}
   NowText: {fileID: 1584691056}
   BestScpre: {fileID: 1392977679}
@@ -1499,6 +1507,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3629446326763215408, guid: 3522104fbc6dfe6488b186ae9e6ad20d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: dd1b1eeb428532044ad9e835a529a70d, type: 3}
     - target: {fileID: 6486146157485176161, guid: 3522104fbc6dfe6488b186ae9e6ad20d, type: 3}
       propertyPath: m_Name
       value: Rock (4)
@@ -1507,6 +1519,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9064482325100203627, guid: 3522104fbc6dfe6488b186ae9e6ad20d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0eebb0398046ad2418014e7930f37490, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2666,6 +2682,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3629446326763215408, guid: 3522104fbc6dfe6488b186ae9e6ad20d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0fd6d7e3306d9be4cb1ec419719af9f7, type: 3}
     - target: {fileID: 6486146157485176161, guid: 3522104fbc6dfe6488b186ae9e6ad20d, type: 3}
       propertyPath: m_Name
       value: Rock (9)
@@ -2674,6 +2694,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9064482325100203627, guid: 3522104fbc6dfe6488b186ae9e6ad20d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bd78c0870a1c09140b1997171628b624, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3338,6 +3362,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3629446326763215408, guid: 3522104fbc6dfe6488b186ae9e6ad20d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0fd6d7e3306d9be4cb1ec419719af9f7, type: 3}
     - target: {fileID: 6486146157485176161, guid: 3522104fbc6dfe6488b186ae9e6ad20d, type: 3}
       propertyPath: m_Name
       value: Rock (8)
@@ -3346,6 +3374,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9064482325100203627, guid: 3522104fbc6dfe6488b186ae9e6ad20d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bd78c0870a1c09140b1997171628b624, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3427,6 +3459,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3629446326763215408, guid: 3522104fbc6dfe6488b186ae9e6ad20d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: dd1b1eeb428532044ad9e835a529a70d, type: 3}
     - target: {fileID: 6486146157485176161, guid: 3522104fbc6dfe6488b186ae9e6ad20d, type: 3}
       propertyPath: m_Name
       value: Rock (5)
@@ -3435,6 +3471,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9064482325100203627, guid: 3522104fbc6dfe6488b186ae9e6ad20d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0eebb0398046ad2418014e7930f37490, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5445,6 +5485,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3629446326763215408, guid: 3522104fbc6dfe6488b186ae9e6ad20d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6c6533f1c2286ea48a817526dd00b8c7, type: 3}
     - target: {fileID: 6486146157485176161, guid: 3522104fbc6dfe6488b186ae9e6ad20d, type: 3}
       propertyPath: m_Name
       value: Rock (2)
@@ -5453,6 +5497,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9064482325100203627, guid: 3522104fbc6dfe6488b186ae9e6ad20d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 28203cb6ee284df4ab17270f9ab404d3, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

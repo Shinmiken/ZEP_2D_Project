@@ -11,7 +11,7 @@ public class UiManger : MonoBehaviour
     public Transform GameOverUI;
     public Transform GameOverBackUI;
 
-    public GameObject gameObject;
+    public GameObject _gameObject;
     Vector3 pos = Vector3.zero;
     Vector3 backPos = Vector3.zero;
 
@@ -24,7 +24,7 @@ public class UiManger : MonoBehaviour
 
     public int BestScore { get => BestScore; }
 
-    private const string BestScoreKey = "BestScore";
+    public const string BestScoreKey = "BestScore";
 
     private void Awake()
     {
@@ -57,7 +57,7 @@ public class UiManger : MonoBehaviour
                 PlayerPrefs.SetInt(BestScoreKey, bestScore);
             }
             FlapPlayer.instance.ScoreUI.SetActive(false);
-            gameObject.SetActive(true);
+            _gameObject.SetActive(true);
         }
     }
 

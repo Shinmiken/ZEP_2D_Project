@@ -38,7 +38,7 @@ public class FlapPlayer : MonoBehaviour
             UiManger.instancee.GameOver();
             return;
         }
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
         {
             isJump = true;
         }
