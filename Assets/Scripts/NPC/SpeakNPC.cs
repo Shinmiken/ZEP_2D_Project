@@ -50,12 +50,20 @@ public class SpeakNPC : MonoBehaviour
     public void FirstQestion()
     {
         NPCSPEAK.SetActive(false);
+        if(DoCorotine != null)
+        {
+            StopCoroutine(DoCorotine);
+        }
         DoCorotine = StartCoroutine(ShowQuestion(firstAnswer));
     }
 
     public void SecondQestion()
     {
         NPCSPEAK.SetActive(false);
+        if (DoCorotine != null)
+        {
+            StopCoroutine(DoCorotine);
+        }
         DoCorotine = StartCoroutine(ShowQuestion(secondAnswer));
     }
 

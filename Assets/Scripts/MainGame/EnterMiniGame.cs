@@ -5,12 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class EnterMiniGame : MonoBehaviour
 {
-    public GameObject GameObject;
+    public GameObject FlappyGameObject;
+    public GameObject FlappyDoor;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            GameObject.SetActive(true);
+            FlappyGameObject.SetActive(true);
         }
     }
 
@@ -18,7 +19,7 @@ public class EnterMiniGame : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            GameObject.SetActive(false);
+            FlappyGameObject.SetActive(false);
         }
     }
 }

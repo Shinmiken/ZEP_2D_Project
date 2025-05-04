@@ -9,4 +9,9 @@ public class SceneManage : MonoBehaviour
     {
         SceneManager.LoadScene("FlapScene");
     }
+
+    public void NumberGame()
+    {
+        SceneManager.LoadScene("NumberGameScene");
+    }
 }

@@ -6,6 +6,7 @@ public class NumberGameManager : MonoBehaviour
 {
     public GameObject numberImage;
     public GameObject StartPage;
+    public GameObject ExplainPage;
     public Sprite[] NumberImages;
 
     void Start()
@@ -55,6 +56,7 @@ public class NumberGameManager : MonoBehaviour
     public void StartButton()
     {
         StartPage.SetActive(false);
+        ExplainPage.SetActive(true);
         CancelInvoke("MakeNumber");
     }
 }
