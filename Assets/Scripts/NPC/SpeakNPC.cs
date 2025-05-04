@@ -16,7 +16,7 @@ public class SpeakNPC : MonoBehaviour
     private Coroutine DoCorotine;
 
     private string NpcQuestion = "모든지 질문하세요^^ (질문을 클릭하자)";
-    private string firstAnswer = ".... 너무 많은걸 알려고 하지마세요^^";
+    private string firstAnswer = ".... 그냥 안내꾼입니다^^";
     private string secondAnswer = "여기는 ZEP을 모티브로한 공간입니다. 여러 기능이 있으니 즐기다가세요^^";
     private float delay = 0.05f;
 
