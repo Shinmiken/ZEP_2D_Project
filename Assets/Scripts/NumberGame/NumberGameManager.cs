@@ -5,11 +5,12 @@ using UnityEngine;
 public class NumberGameManager : MonoBehaviour
 {
     public GameObject numberImage;
+    public GameObject StartPage;
     public Sprite[] NumberImages;
 
     void Start()
     {
-        InvokeRepeating("MakeNumber", 0f, 0.5f);    
+        InvokeRepeating("MakeNumber", 0f, 0.1f);    
     }
 
     private void MakeNumber()
@@ -49,5 +50,11 @@ public class NumberGameManager : MonoBehaviour
         }
 
         Destroy(gameobject);
+    }
+
+    public void StartButton()
+    {
+        StartPage.SetActive(false);
+        CancelInvoke("MakeNumber");
     }
 }
