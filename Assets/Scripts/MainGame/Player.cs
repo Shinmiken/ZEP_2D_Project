@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] private float playerSpeed = 5f;
+    public float playerSpeed = 5f;
     [SerializeField] private float jumpHigh = 0.5f;
     [SerializeField] private float jumpDuration = 0.4f;
     private Rigidbody2D _rigidbody;
-    private SpriteRenderer _spriteRenderer;
+    public SpriteRenderer _spriteRenderer;
     private Animator _animator;
 
     private Vector2 moveVec;
@@ -40,7 +40,6 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        
         Vector2 myMove = moveVec.normalized * playerSpeed * Time.fixedDeltaTime;
         _rigidbody.MovePosition(_rigidbody.position + myMove);
     }
