@@ -15,27 +15,18 @@ public class Player : MonoBehaviour
 
     private bool isJump = false;
 
+    public static Player instence; // 이미지 교페를 위한 싱글톤 선언
     private void Awake()
     {
+        if(instence == null)
+        {
+            instence = this;
+        }
         _rigidbody = GetComponent<Rigidbody2D>();
         _spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         _animator = GetComponentInChildren<Animator>();
     }
 
-    void Start()
-    {
-        //// 힘을 준다
-        //_rigidbody.AddForce(Vec);
-
-        ////속도를 제어한다.
-        //_rigidbody.velocity = Vector3;
-
-        ////위치 이동
-        //_rigidbody.MovePosition(_rigidbody.position + Vec);
-
-    }
-
-    // Update is called once per frame
     void Update()
     {
         moveVec.x = Input.GetAxisRaw("Horizontal");

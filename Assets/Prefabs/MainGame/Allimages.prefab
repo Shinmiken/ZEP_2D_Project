@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3579065050524152467}
   - component: {fileID: 5551556130101506928}
   - component: {fileID: 6033730293185938916}
+  - component: {fileID: -5496772797699743714}
   m_Layer: 0
   m_Name: Allimages
   m_TagString: Untagged
@@ -120,10 +121,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ShowCustomCharactor, Assembly-CSharp
-        m_MethodName: ChangeImage
-        m_Mode: 1
+      - m_Target: {fileID: -5496772797699743714}
+        m_TargetAssemblyTypeName: ChangeImage, Assembly-CSharp
+        m_MethodName: ChangeSkin
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -132,3 +133,28 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &-5496772797699743714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9104409010295287658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c31e5ebdf4a726449a529b39d5e1d9f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skinOverrides:
+  - {fileID: 22100000, guid: 7f952412cf09c7e41b97617aa667703d, type: 2}
+  - {fileID: 22100000, guid: 9c61e9fbc3911cd40976bf041d35f855, type: 2}
+  - {fileID: 22100000, guid: 47a250846a2dc1d4db0a1cc2bfa677d5, type: 2}
+  - {fileID: 22100000, guid: a9d70f3d0d545e24bb07601bc69c2974, type: 2}
+  - {fileID: 22100000, guid: dac8baa19b4ea4f46a8626214731f9c7, type: 2}
+  - {fileID: 22100000, guid: 8312ffcc0b2e7ad4d93470c07a71b59d, type: 2}
+  - {fileID: 22100000, guid: 1d9345fcea6f098428ff74b0e1634cc1, type: 2}
+  - {fileID: 22100000, guid: cf7e915e4d5db674f92a2651172a91dd, type: 2}
+  - {fileID: 22100000, guid: e85c5d3b5a2ddf94dbd8d4b610d75aed, type: 2}
+  - {fileID: 22100000, guid: ed47c78c2b0feb04aaf3e8877ba79b63, type: 2}
+  - {fileID: 22100000, guid: 3064bb6f9d7842b429de343115c28ab1, type: 2}
+  - {fileID: 22100000, guid: 760c0860cf32dca4fb780117d41f93aa, type: 2}
