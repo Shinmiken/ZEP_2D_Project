@@ -124,7 +124,7 @@ MonoBehaviour:
       - m_Target: {fileID: -5496772797699743714}
         m_TargetAssemblyTypeName: ChangeImage, Assembly-CSharp
         m_MethodName: ChangeSkin
-        m_Mode: 3
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

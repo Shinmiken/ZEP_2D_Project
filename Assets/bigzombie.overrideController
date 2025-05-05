@@ -9,7 +9,7 @@ AnimatorOverrideController:
   m_Name: bigzombie
   m_Controller: {fileID: 9100000, guid: bc8412a9d1fd89c46a1383e8911f8ee7, type: 2}
   m_Clips:
-  - m_OriginalClip: {fileID: 7400000, guid: 7840c3af7b0b95f40b4ec8d9f9316e38, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: 7840c3af7b0b95f40b4ec8d9f9316e38, type: 2}
-  - m_OriginalClip: {fileID: 7400000, guid: 0b5be1040c5f087478902cade50f8e79, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 36a33532c3db51040b559f871138dc39, type: 2}
     m_OverrideClip: {fileID: 7400000, guid: 0b5be1040c5f087478902cade50f8e79, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 8c4b255e9fee2214ebb7dda1fbc01e67, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7840c3af7b0b95f40b4ec8d9f9316e38, type: 2}

@@ -9,7 +9,7 @@ AnimatorOverrideController:
   m_Name: lizardm_anim
   m_Controller: {fileID: 9100000, guid: bc8412a9d1fd89c46a1383e8911f8ee7, type: 2}
   m_Clips:
-  - m_OriginalClip: {fileID: 7400000, guid: 91593f17122f70e428ef193d86960eb9, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 36a33532c3db51040b559f871138dc39, type: 2}
     m_OverrideClip: {fileID: 7400000, guid: 91593f17122f70e428ef193d86960eb9, type: 2}
-  - m_OriginalClip: {fileID: 7400000, guid: 54f8b5191ca479348a1fdc3d4e3b56b3, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: 54f8b5191ca479348a1fdc3d4e3b56b3, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 8c4b255e9fee2214ebb7dda1fbc01e67, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 11653f5444e657642897ed14caaae642, type: 2}
