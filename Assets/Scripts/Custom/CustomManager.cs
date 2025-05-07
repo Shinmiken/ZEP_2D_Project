@@ -17,18 +17,18 @@ public class CustomManager : MonoBehaviour
         CustomStartUI.SetActive(false);
         CustomUI.SetActive(true);
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision) // 커스텀 문과 충돌하면 UI등장
     {
         if (!isOpen)
         CustomStartUI.SetActive(true);
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    private void OnTriggerExit2D(Collider2D collision) // UI 제거
     {
         CustomStartUI.SetActive(false);
     }
 
-    public void ExitCustom()
+    public void ExitCustom() 
     {
         CustomUI.SetActive(false);
         isOpen = false;

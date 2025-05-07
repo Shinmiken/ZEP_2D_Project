@@ -12,7 +12,7 @@ public class FlapRock : MonoBehaviour
 
     public Vector3 SetRandomPlace(Vector3 lastPosition, float count)
     {
-        float topholeSize = Random.Range(-2.2f, -1.5f);
+        float topholeSize = Random.Range(-2.2f, -1.5f); // 지나가는 구멍 크기 조절
         float botholeHole = Random.Range(1.9f, 2.4f);
 
         top.localPosition = new Vector3 (0, botholeHole);

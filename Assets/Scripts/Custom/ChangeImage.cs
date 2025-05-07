@@ -38,6 +38,6 @@ public class ChangeImage : MonoBehaviour
             }
         }
         animator = player.GetComponent<Animator>();
-        animator.runtimeAnimatorController = skinOverrides[i];
+        animator.runtimeAnimatorController = skinOverrides[i]; // ¾Ö´Ï¸ÞÀÌ¼Ç µ¤¾î¾º¿ì±â
     }
 }

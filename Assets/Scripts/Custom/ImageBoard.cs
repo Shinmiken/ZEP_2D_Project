@@ -8,8 +8,7 @@ public class ImageBoard : MonoBehaviour
     public Sprite[] spriteOption;
     public GameObject imageGameObject;
 
-    // Start is called before the first frame update
-    private void Start()
+    private void Start() // 각 스킨들을 화면에 표시
     {
         float x = -150;
         float y = 0;

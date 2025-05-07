@@ -55,7 +55,7 @@ public class CalculateGame : MonoBehaviour
         }
     }
 
-    public void Calcurate()
+    public void Calcurate() // 랜덤한 숫자 및 부호 결정
     {
         int a = 0;
         int b = 0;
@@ -93,7 +93,7 @@ public class CalculateGame : MonoBehaviour
     {
         int answer;
 
-        if (int.TryParse(answerInput.text, out answer))
+        if (int.TryParse(answerInput.text, out answer)) // 입력한 값을 int형식으로 변경해서 값을 비교
         {
             if (answer == result)
             {
@@ -125,7 +125,7 @@ public class CalculateGame : MonoBehaviour
         }
     }
 
-    public IEnumerator QuestionRepeat()
+    public IEnumerator QuestionRepeat() // 문제가 5초마다 등장하고 문제를 맞추면 바로 문제가 바뀌게끔 설정 처음에 invoke를 활용했지만 문제를 맞추면 바로 문제가 바뀌는 것이 힘들어 코루틴으로 교체
     {
         Calcurate();
 

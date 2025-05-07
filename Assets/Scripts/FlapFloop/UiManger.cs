@@ -45,7 +45,7 @@ public class UiManger : MonoBehaviour
         {
             pos = GameOverUI.transform.position;
             pos.x = target.position.x;
-            GameOverUI.transform.position = pos;
+            GameOverUI.transform.position = pos; // 게임 오버 UI를 카메라 중앙에 설치하기 위한 위치 변경 canvus를 사용할까 했으나 위치를 변경하는 것도 시도해보고싶었음
             backPos = GameOverBackUI.transform.position;
             backPos.x = target.position.x;
             GameOverBackUI.position = backPos;

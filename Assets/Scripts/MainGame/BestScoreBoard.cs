@@ -12,13 +12,13 @@ public class BestScoreBoard : MonoBehaviour
 
     float bestScore;
     int numberScore;
-    private void Start()
+    private void Start() // 각 게임의 최고 기록 가져오기
     {
         bestScore = PlayerPrefs.GetInt("BestScore", 0);
         numberScore = PlayerPrefs.GetInt("NumBestScore", 0);
     }
 
-    public void ShowScoreBoard()
+    public void ShowScoreBoard() //최고 기록 표시하기
     {
         scoreObject.SetActive(true);
         FlappyScore.text = bestScore.ToString();

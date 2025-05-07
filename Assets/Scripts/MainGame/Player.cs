@@ -41,7 +41,7 @@ public class Player : MonoBehaviour
     private void FixedUpdate()
     {
         Vector2 myMove = moveVec.normalized * playerSpeed * Time.fixedDeltaTime;
-        _rigidbody.MovePosition(_rigidbody.position + myMove);
+        _rigidbody.MovePosition(_rigidbody.position + myMove); // x,y값을 따로 해서 위치변경이 아닌 rigidbody에 MovePosition를 활용하여 한번에 움직임 구현
     }
 
     private void LateUpdate()
@@ -63,7 +63,7 @@ public class Player : MonoBehaviour
         float firstTime = 0;
         while(firstTime < jumpDuration / 2)
         {
-            transform.position = Vector3.Lerp(startPos, endPos, firstTime / (jumpDuration / 2 ));
+            transform.position = Vector3.Lerp(startPos, endPos, firstTime / (jumpDuration / 2 )); // 올라가고 내려가고 시간 조절
             firstTime += Time.deltaTime;
             yield return null;
         }

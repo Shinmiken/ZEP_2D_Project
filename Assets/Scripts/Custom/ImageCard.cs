@@ -6,7 +6,7 @@ public class ImageCard : MonoBehaviour
 {
     public GameObject targetGameObject;
 
-    public void ChangeColor(float r, float g, float b)
+    public void ChangeColor(float r, float g, float b) // »ö±òº¯°æ
     {
         SpriteRenderer rn = targetGameObject.GetComponent<SpriteRenderer>();
         rn.color = new Color(r, g, b);

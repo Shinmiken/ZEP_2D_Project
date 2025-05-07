@@ -45,17 +45,17 @@ public class FlapPlayer : MonoBehaviour
         
     }
 
-    private void FixedUpdate()
+    private void FixedUpdate() 
     {
         if (isDead) return;
-        Vector2 vel = _rigidbody2D.velocity;
-        vel.x = FlapSpeed;
+        Vector2 vel = _rigidbody2D.velocity; 
+        vel.x = FlapSpeed; // 앞으로 이동
         if (isJump)
         {
-            vel.y = FlapJump;
+            vel.y = FlapJump; // 점프
             isJump = false;
         }
-        _rigidbody2D.velocity = vel;
+        _rigidbody2D.velocity = vel; 
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -66,7 +66,7 @@ public class FlapPlayer : MonoBehaviour
         _animator.SetInteger("isDie", 1);
     }
 
-    public void StartFlapGame()
+    public void StartFlapGame() // 시작 UI 삭제 및 게임 시작
     {
         StartUI.SetActive(false);
         ScoreUI.SetActive(true);

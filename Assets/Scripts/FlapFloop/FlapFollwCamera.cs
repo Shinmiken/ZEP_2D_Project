@@ -8,13 +8,7 @@ public class FlapFollwCamera : MonoBehaviour
 
     Vector3 moveVec;
 
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
+    void Update() // 카메라 움직임
     {
         moveVec = transform.position;
         moveVec.x = target.position.x;

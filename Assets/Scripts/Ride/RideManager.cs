@@ -30,7 +30,7 @@ public class RideManager : MonoBehaviour
 
     private void LateUpdate()
     {
-        if (player._spriteRenderer.flipX == true)
+        if (player._spriteRenderer.flipX == true) // 플레이어가 보는 방향을 보게끔 설정
         {
             _sp.flipX = true;
         }
@@ -42,20 +42,20 @@ public class RideManager : MonoBehaviour
 
     public void RideMuddy()
     {
-        if (_gameObject.activeSelf == false)
+        if (_gameObject.activeSelf == false) // 탈것을 타고 있지않으면 탑승 및 속도 변경
         {
             _gameObject.SetActive(true);
             muddy.text = str;
             player.playerSpeed = 30f;
             animator.runtimeAnimatorController = skinOverrides[0];
         }
-        else if (animator.runtimeAnimatorController == skinOverrides[1] && _gameObject.activeSelf == true)
+        else if (animator.runtimeAnimatorController == skinOverrides[1] && _gameObject.activeSelf == true) // 다른 탈것을 타고 있다면 행동x
         {
             return;
         }
-        else
+        else // 내리기
         {
-            muddy.text = wear;
+            muddy.text = wear; 
             _gameObject.SetActive(false);
             player.playerSpeed = 20f;
         }

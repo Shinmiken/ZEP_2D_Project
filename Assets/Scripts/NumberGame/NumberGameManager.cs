@@ -32,7 +32,7 @@ public class NumberGameManager : MonoBehaviour
         StartCoroutine(Hiding(number));
     }
 
-    IEnumerator Hiding(GameObject gameobject)
+    IEnumerator Hiding(GameObject gameobject) // 숫자가 천천히 생겼다가 사라지게 설정
     {
         SpriteRenderer renderer = gameobject.GetComponent<SpriteRenderer>();
         float delay = 0.05f;

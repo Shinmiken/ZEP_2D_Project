@@ -9,7 +9,7 @@ public class MisteryBox : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            Vector3 rot = target.rotation.eulerAngles;
+            Vector3 rot = target.rotation.eulerAngles; // 카메라 뒤집기
             if (rot.z == 0)
             {
                 rot.z = 180;
